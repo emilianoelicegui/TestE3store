@@ -71,7 +71,7 @@ namespace TestE3store
             var result2 = funciones.simplificar(f2);
             var result3 = funciones.simplificar(f3);
 
-            Assert.IsTrue(result1 == "2/3" && result1 == "10/11" && result1 == "1/4");
+            Assert.IsTrue(result1 == "2/3" && result2 == "10/11" && result3 == "1/4");
         }
     }
 }

@@ -6,18 +6,6 @@ namespace TestE3store
 {
     public class Funciones
     {
-        class Fraccion
-        {
-            public Fraccion(int Numerador, int Denominador)
-            {
-                this.Numerador = Numerador;
-                this.Denominador = Denominador;
-            }
-
-            public int Numerador { get; }
-            public int Denominador { get; }
-        }
-
         public bool validName(string nombre)
         {
             var nombreEspacios = nombre.Split(" ");
